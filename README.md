@@ -40,3 +40,7 @@
 
 <p>&nbsp;<img  src="https://github-readme-stats.vercel.app/api?username=emirarslan42&show_icons=true&locale=en" alt="emirarslan42" /></p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EmirArslan42/EmirArslan42/output/snake.svg" alt="snake animation" />
+</p>
+
