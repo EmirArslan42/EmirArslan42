@@ -5,6 +5,9 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,7 +20,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: EmirArslan42
-          outputs: dist/snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake.gif
 
       - name: Push Snake to GitHub
         uses: crazy-max/ghaction-github-pages@v3
